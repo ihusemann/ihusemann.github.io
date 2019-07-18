@@ -1,0 +1,16 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 100% Europa, sans-serif;
+  font-weight: 400; }
+
+h1 {
+  font-weight: 700;
+  font-size: 2em; }
+
+/*# sourceMappingURL=index_out.css.map */
