@@ -33,6 +33,7 @@ h3 {
   flex-wrap: nowrap;
   justify-content: space-between;
   width: 100%;
+  position: absolute;
 }
 
 /*# sourceMappingURL=index_out.css.map */
