@@ -24,7 +24,7 @@ h3 {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  width: 400px;
+  width: 300px;
 }
 
 #header {
