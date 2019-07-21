@@ -19,7 +19,7 @@ h3 {
   font-size: 1.3em;
   cursor: pointer; }
 
-menu {
+#menu {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
