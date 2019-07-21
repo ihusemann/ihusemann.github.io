@@ -19,4 +19,12 @@ h3 {
   font-size: 1.3em;
   cursor: pointer; }
 
+menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 400px;
+}
+
 /*# sourceMappingURL=index_out.css.map */
