@@ -81,7 +81,7 @@ h3 {
 
 body {
   display: grid;
-  grid-template-columns: [left] 8% [margin-left] 1fr [center] 1fr [margin-right] 8% [right];
+  grid-template-columns: [left] 8% [margin-left] 1fr [mid] 1fr [margin-right] 8% [right];
   grid-template-rows: [top] 20px [header-top] 60px [header-bottom] 1fr [footer-top] 30px [footer-bottom] 15px [bottom];
   width: 100vw;
   height: 100vh;
@@ -122,16 +122,49 @@ header {
   justify-content: space-between;
 }
 
-#content {
+#propic {
+
   grid-column-start: margin-left;
   grid-column-end: center;
   grid-row-start: header-bottom;
   grid-row-end: footer-top;
 
-  display:flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-self: end;
+  align-self: center;
+
+  width:400px;
+  height:auto;
 }
+
+#content-left {
+  grid-column-start: margin-left;
+  grid-column-end: mid;
+  grid-row-start: header-bottom;
+  grid-row-end: footer-top;
+
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin:2em;
+}
+
+
+
+#content-right {
+  grid-column-start: mid;
+  grid-column-end: margin-right;
+  grid-row-start: header-bottom;
+  grid-row-end: footer-top;
+
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin: 2em;
+}
+
 
 footer {
   grid-column-start: left;
@@ -164,9 +197,19 @@ footer > a {
   width: 27px;
 }
 
-#propic {
 
+
+
+#test {
+  /* grid-column-start: center;
+  grid-column-end: margin-right;
+  grid-row-start: header-bottom;
+  grid-row-end: footer-top;
+  justify-self: start;
+  align-self: center; */
 }
+
+
 
 @media screen and (max-width: 880px) {
   body {
