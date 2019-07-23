@@ -128,6 +128,9 @@ li span {
 .spacing {
   margin-top: .5em; }
 
+.center {
+  text-align: center; }
+
 @media screen and (max-width: 880px) {
   body {
     grid-template-rows: [top] 20px [header-top] 120px [header-bottom] 1fr [footer-top] 30px [footer-bottom] 15px [bottom]; } }
