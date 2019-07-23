@@ -162,6 +162,8 @@ header {
   align-items: flex-start;
   flex-direction: column;
 
+  max-width: 400px;
+
   margin: 2em;
 }
 
