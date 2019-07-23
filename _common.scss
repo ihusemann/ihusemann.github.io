@@ -10,7 +10,7 @@ $hover-color: #4faf8a;
 body {
   display: grid;
   grid-template-columns: [left] 8% [margin-left] 1fr [mid] 1fr [margin-right] 8% [right];
-  grid-template-rows: [top] 20px [header-top] 60px [header-bottom] 1fr [footer-top] 30px [footer-bottom] 15px [bottom];
+  grid-template-rows: [top] 20px [header-top] 60px [header-bottom] 1fr [footer-top] 45px [footer-bottom] 10px [bottom];
   width: 100vw;
   height: 100vh;
 
@@ -50,6 +50,8 @@ footer {
   grid-row-start: footer-top;
   grid-row-end: footer-bottom;
   justify-self: center;
+
+  margin-top: 10px;
 }
 
 h1 {
@@ -78,6 +80,7 @@ footer > a {
 }
 
 #linkedin {
+  // margin-top: 2em;
   width: 27px;
 }
 
