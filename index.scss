@@ -1,0 +1,57 @@
+
+@import 'common';
+
+
+#propic {
+  grid-column-start: margin-left;
+  grid-column-end: center;
+  grid-row-start: header-bottom;
+  grid-row-end: footer-top;
+
+  justify-self: end;
+  align-self: center;
+
+  width:400px;
+  height:auto;
+}
+
+#content-left {
+  grid-column-start: margin-left;
+  grid-column-end: mid;
+  grid-row-start: header-bottom;
+  grid-row-end: footer-top;
+
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin:2em;
+}
+
+#content-right {
+  grid-column-start: mid;
+  grid-column-end: margin-right;
+  grid-row-start: header-bottom;
+  grid-row-end: footer-top;
+
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  max-width: 400px;
+
+  margin: 2em;
+}
+
+.section-header {
+  margin-bottom:.8em;
+}
+
+menu > a:hover {
+  color:#008E8D;
+  transition: 0.2s;
+}
+
+
+@import 'media';
