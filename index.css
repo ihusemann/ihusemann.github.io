@@ -197,16 +197,8 @@ footer > a {
   width: 27px;
 }
 
-
-
-
-#test {
-  /* grid-column-start: center;
-  grid-column-end: margin-right;
-  grid-row-start: header-bottom;
-  grid-row-end: footer-top;
-  justify-self: start;
-  align-self: center; */
+.section-header {
+  margin-bottom:.8em;
 }
 
 
