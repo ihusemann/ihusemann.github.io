@@ -64,6 +64,10 @@ footer > a {
 #linkedin {
   width: 27px; }
 
+menu > a:hover {
+  color: #4faf8a;
+  transition: 0.2s; }
+
 #propic {
   grid-column-start: margin-left;
   grid-column-end: center;
@@ -98,10 +102,6 @@ footer > a {
 
 .section-header {
   margin-bottom: .8em; }
-
-menu > a:hover {
-  color: #008E8D;
-  transition: 0.2s; }
 
 @media screen and (max-width: 880px) {
   body {

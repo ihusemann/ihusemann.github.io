@@ -64,6 +64,10 @@ footer > a {
 #linkedin {
   width: 27px; }
 
+menu > a:hover {
+  color: #4faf8a;
+  transition: 0.2s; }
+
 a {
   color: black;
   text-decoration: none; }
