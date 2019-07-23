@@ -64,6 +64,9 @@ footer > a {
 #linkedin {
   width: 27px; }
 
+.thin {
+  font-weight: 200; }
+
 menu > a:hover {
   color: #4faf8a;
   transition: 0.2s; }

@@ -64,6 +64,9 @@ footer > a {
 #linkedin {
   width: 27px; }
 
+.thin {
+  font-weight: 200; }
+
 menu > a:hover {
   color: #4faf8a;
   transition: 0.2s; }
@@ -71,6 +74,59 @@ menu > a:hover {
 a {
   color: black;
   text-decoration: none; }
+
+#content {
+  grid-column-start: margin-left;
+  grid-column-end: margin-right;
+  grid-row-start: header-bottom;
+  grid-row-end: footer-top;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; }
+
+#resume {
+  max-width: 800px; }
+
+#resume a:hover {
+  color: #4faf8a;
+  transition: 0.2s; }
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 0.3em; }
+
+h3 {
+  font-size: 1.3em;
+  margin-top: .5em;
+  margin-bottom: .05em; }
+
+hr {
+  border: .5px solid black; }
+
+.sides {
+  display: flex;
+  justify-content: space-between; }
+
+.bold {
+  font-weight: 700; }
+
+.thin > * {
+  font-weight: 200; }
+
+ul {
+  margin-top: .5em;
+  padding-left: 2em; }
+
+li {
+  font-size: 50%;
+  padding-left: 1.5em; }
+
+li span {
+  font-size: 200%; }
+
+.spacing {
+  margin-top: .5em; }
 
 @media screen and (max-width: 880px) {
   body {
