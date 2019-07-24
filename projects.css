@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  display: grid;
+  grid-template-columns: [left] 8% [margin-left] 1fr [mid] 1fr [margin-right] 8% [right];
+  grid-template-rows: [top] 20px [header-top] 60px [header-bottom] 1fr [footer-top] 45px [footer-bottom] 10px [bottom];
+  width: 100vw;
+  height: 100vh;
+  font: 100% Europa, sans-serif;
+  font-weight: 400; }
+
+menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px; }
+
+menu > a {
+  font-weight: 700;
+  font-size: 1.3em;
+  cursor: pointer;
+  color: black;
+  text-decoration: none; }
+
+header {
+  grid-column-start: margin-left;
+  grid-column-end: margin-right;
+  grid-row-start: header-top;
+  grid-row-end: header-bottom;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+footer {
+  grid-column-start: left;
+  grid-column-end: right;
+  grid-row-start: footer-top;
+  grid-row-end: footer-bottom;
+  justify-self: center;
+  margin-top: 10px; }
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  cursor: pointer; }
+
+.thin {
+  font-weight: 300; }
+
+.fa-linkedin {
+  opacity: 0.7;
+  cursor: pointer; }
+
+.fa-linkedin:hover {
+  color: #0077B5;
+  opacity: 1; }
+
+footer > a {
+  color: inherit;
+  text-decoration: none; }
+
+#linkedin {
+  width: 27px; }
+
+.thin {
+  font-weight: 200; }
+
+menu > a:hover {
+  color: #4faf8a;
+  transition: 0.2s; }
+
+#content {
+  grid-column-start: margin-left;
+  grid-column-end: margin-right;
+  grid-row-start: header-bottom;
+  grid-row-end: footer-top; }
+
+h2 {
+  font-weight: bold;
+  font-size: 2em; }
+
+.videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+iframe {
+  padding-bottom: 2em; }
+
+@media screen and (max-width: 880px) {
+  body {
+    grid-template-rows: [top] 20px [header-top] 120px [header-bottom] 1fr [footer-top] 30px [footer-bottom] 15px [bottom]; } }
+@media screen and (max-width: 700px) {
+  body {
+    grid-template-rows: [top] 20px [header-top] 190px [header-bottom] 1fr [footer-top] 30px [footer-bottom] 15px [bottom]; } }
+
+/*# sourceMappingURL=projects.css.map */

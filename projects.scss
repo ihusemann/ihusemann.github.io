@@ -1,0 +1,27 @@
+@import "common";
+
+#content {
+  grid-column-start: margin-left;
+  grid-column-end: margin-right;
+  grid-row-start: header-bottom;
+  grid-row-end: footer-top;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.videos {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+iframe {
+  padding-bottom: 2em;
+}
+
+
+@import "media";
